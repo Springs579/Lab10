@@ -5,6 +5,19 @@ public class TicTacToe
     private static final int COLS = 3;
     private static String[][] board = new String[ROWS][COLS];
     public static void main(String[] args)
+//Pseudocode:
+//Clear the board
+//Set the current player to X
+//Get the row and column from the current player
+//Convert the coordinates to array indexes
+//Check whether the selected space is empty
+//Repeat input until a valid move is entered
+//Record the move on the board
+//Increment the move counter
+//Check for a win or tie when appropriate
+//Announce the result if the game is over
+//Switch to the other player if the game continues
+//Ask whether the players want to play again
     {
         Scanner in = new Scanner(System.in);
         boolean playAgain;
